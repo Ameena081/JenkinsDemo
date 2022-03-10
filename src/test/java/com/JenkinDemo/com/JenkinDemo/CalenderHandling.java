@@ -18,8 +18,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 	public class CalenderHandling {
 
-		@Test(dataProvider="city")
-		public void selectcity(String src,String desc) throws InterruptedException {
+		@Test//(dataProvider="city")
+		public void selectcity() throws InterruptedException {
 
 			Date date = new Date();
 			String currentdate=date.toString();
@@ -65,7 +65,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 		}
 
-		@DataProvider
+		/*@DataProvider
 		public Object[][] city() {
 
 			Object arr[][]= new Object[4][2];
@@ -86,7 +86,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			arr[3][1]="NYC";
 
 			return arr;
-
-		}
-
+*/
+		
 }
