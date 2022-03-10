@@ -22,7 +22,7 @@ package com.JenkinDemo.com.JenkinDemo;
 			driver.get("https://www.flipkart.com");
 			
 			driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
-			driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Mobiles unser 20000",Keys.ENTER);
+			driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Mobiles under 20000",Keys.ENTER);
 			
 			List<WebElement> prices = driver.findElements(By.xpath("//div[@class='_30jeq3 _1_WHN1']"));
 			System.out.println("ss");
